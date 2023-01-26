@@ -23,6 +23,8 @@ export default function MainNavigation() {
           tabBarStyle: {
             height: 60,
             padding: 10,
+            alignItems: 'center',
+            justifyContent: 'center',
           },
         })}>
         <Tab.Screen

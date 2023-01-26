@@ -107,7 +107,12 @@
 
 import React from 'react';
 import MainNavigation from './src/navigation/mainNavigation';
+import {NativeWindStyleSheet} from 'nativewind';
 
 export default function App() {
   return <MainNavigation />;
 }
+
+NativeWindStyleSheet.setOutput({
+  default: 'native',
+});
